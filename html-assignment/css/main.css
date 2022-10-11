@@ -1,0 +1,54 @@
+/* changes body font family, size, color, and background */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #3c3c3c;
+    background-color: #f5eeee;
+}
+
+/* changes header and footer background */
+header, footer {
+    background-color: #6082b8;
+}
+
+/* changes color of class site-title */
+.site-title {
+    color:#FFF8F8;
+}
+
+/* adds drop shadow to id my-image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* changes bullet type of unordered list */
+ul {
+    list-style-type: square;
+}
+
+/* changes background of every odd child in hobby list */
+.hobby-list-item:nth-child(odd) {
+    background-color: #ede2e2;
+}
+
+/* removes bullet from navigation */
+nav ul li {
+    list-style-type: none;
+}
+
+/* adds background and border and removes underline in navigataion */
+nav ul li a {
+    text-decoration: none;
+    background-color: #dac3c3;
+    border-style: solid;
+}
+
+/* changes background of hovered links */
+a:hover {
+    background-color: #ede2e2;
+}
+
+/* changes color of visited links */
+a:visited {
+    color: #3c3c3c;
+}
