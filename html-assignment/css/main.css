@@ -36,7 +36,7 @@ nav ul li {
     list-style-type: none;
 }
 
-/* adds background and border and removes underline in navigataion */
+/* adds background and border and removes underline in navigataion links */
 nav ul li a {
     text-decoration: none;
     background-color: #dac3c3;
