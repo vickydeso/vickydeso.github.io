@@ -1,4 +1,9 @@
+/* changes background color and font */
 body {
     background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #D4E9E7;
 }
