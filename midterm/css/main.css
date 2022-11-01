@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* changes size, positioning, and background color of main content */
 main {
     box-sizing: border-box;
     background-color: #D4E9E7;
@@ -12,18 +13,20 @@ main {
     padding: 10px;
 }
 
+/* changes paragraph size and line spacing */
 p {
     line-height: 1.5rem;
     font-size: 1.2rem;
 }
 
+/* changes size of banner image and centres */
 .banner {
-    max-width: 100%;
     display: block;
     width: 70%;
     margin: auto;
 }
 
+/* changes color, size, and positioning of site title */
 h1 {
     color: white;
     font-size: 400%;
@@ -33,11 +36,12 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-.hero {
+/* positions site title over banner image */
+.header {
     position: relative;
-    text-align: center;
 }
 
+/* changes background color, size and centres navigation bar */
 nav {
     box-sizing: border-box;
     background-color: #D4E9E7;
@@ -46,30 +50,33 @@ nav {
     padding: 10px;
 }
 
+/* changes sizing, spaces out navigation links and adds dividers */
 .nav-page {
     display: inline-block;
     text-align: center;
     font-size: 200%;
+    width: 32%;
     border-right: 2px solid grey;
-}
-
-ul li a {
-    text-decoration: none;
-    margin-left: 130px;
-    margin-right: 130px;
-    color: black;
-    text-transform: uppercase;
 }
 
 .nav-page:last-child {
     border-right: none;
 }
 
+/* removes link underlines, changes color and text style */
+ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* changes sizing and adds spacing around h2 */
 h2 {
     font-size: 250%;
     margin-bottom: 10px;
 }
 
+/* changes size and positioning of small image */
 .small-image {
     float: left;
     margin-right: 20px;
@@ -77,32 +84,53 @@ h2 {
     width: 25%;
 }
 
+/* changes sizing and adds spacing around h3 */
 h3 {
     font-size: 220%;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
+/* changes list item size, positioning, and line spacing */
 .fact {
     line-height: 1.5rem;
     font-size: 1.2rem;
     list-style-position: inside;
 }
 
+/* changes form label size and line spacing */
 label {
-    display: block;
     line-height: 2.5rem;
     font-size: 1.2rem;
 }
 
-.radio {
-    display: inline;
+/* adds border around contact form */
+.contact {
+    border: solid 1.5px;
+    padding: 15px;
 }
 
+/* changes width of name and email input boxes */
 input[type=text], input[type=email] {
-    width: 99%;
+    box-sizing: border-box;
+    width: 100%;
 }
 
+/* changes size of message input box */
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+}
+
+/* adds spacing around form paragraph and changes sizing */
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* changes size, border style, and text formatting of send button */
 .send {
     text-transform: uppercase;
     font-size: .7rem;
@@ -112,23 +140,7 @@ input[type=text], input[type=email] {
     width: 55px;
 }
 
-textarea {
-    width: 96%;
-    padding: 50px 20px;
-}
-
-
-.contact {
-    border: solid 1.5px;
-    padding: 15px;
-}
-
-.contact p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-}
-
+/* changes size of footer, adds spacing and background color, and aligns to the right */
 footer {
     box-sizing: border-box;
     text-align: right;
