@@ -1,0 +1,19 @@
+.div {
+    grid-template-areas:
+    "heading heading heading heading heaidng heaidng"
+    "digital digital digital marketing marketing marketing"
+    "video video web web print print"
+}
+
+
+.heading {
+    grid-area: heading;
+}
+
+.digital {
+    grid-area: digital;
+}
+
+.marketing {
+    grid-area: digital;
+}
