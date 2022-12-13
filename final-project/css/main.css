@@ -136,6 +136,11 @@ form button {
     border: 1px solid #c78c06;
 }
 
+/* Contact Form */
+.contact-form {
+    display: inline-block;
+}
+
 /* Hours of Operation */
 table {
     width: 100%;
