@@ -1,3 +1,135 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    padding: 15px;
+    max-width: 1200px;
+}
+
+h1 {
+    padding: 40px 0 20px 0;
+    color:#222;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+h2 {
+    padding: 40px 0 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 40px 0 20px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+button {
+    padding: 25px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222;
+}
+
+a {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #c78c06;
+ }
+
+ a:hover {
+    background-color: #c78c06;
+    color: #222;
+ }
+
+form input {
+    float: left;
+    width: 90%;
+    margin: auto;
+    height: 35px;
+    font-size: 110%;
+}
+
+form button {
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    background-color: #222;
+    border: 1px solid #c78c06;
+}
+
+.fa-search {
+    font-size: 1rem;
+    color:#c78c06;
+}
+
+/* Welcome Section */
+.welcome {
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+.banner img {
+    width: 100%;
+}
+
+.welcome h1 {
+    color: white;
+}
+
+.welcome p {
+    color: white;
+}
+
+.welcome button {
+    background-color:#c78c06;
+}
+
+/* About Us */
+.about-us {
+    background-color: #ffe6ac;
+}
+
+/* Our Services */
+.our-services button {
+    background-color:#222;
+    color: white;
+}
+
+/* Our Vision */
+.our-vision {
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.our-vision button {
+    background-color:rgba(2, 2, 2, 75%);
+    color: white;
+    border: 1px solid #c78c06;
+}
+
+/*  */
+
 .div {
     grid-template-areas:
     "heading heading heading heading heaidng heaidng"
@@ -16,4 +148,8 @@
 
 .marketing {
     grid-area: digital;
+}
+
+@media screen and (min-width:760px) {
+
 }
