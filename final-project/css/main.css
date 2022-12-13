@@ -74,7 +74,7 @@ form input {
     font-size: 110%;
 }
 
-form button {
+nav button {
     height: 40px;
     width: 40px;
     padding: 0px;
@@ -116,10 +116,32 @@ form button {
     background-color: #ffe6ac;
 }
 
+.about-us img {
+    width: 100%;
+}
+
 /* Our Services */
+.our-services img {
+    width: 100%;
+}
+
+.digital, .marketing, .video, .web, .print {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+.our-services h3 {
+    padding: 40px 15px 15px 15px;
+}
+
+.our-services p {
+    padding: 15px 15px 0px 15px;
+}
+
 .our-services button {
     background-color:#222;
     color: white;
+    margin: 15px;
 }
 
 /* Our Vision */
@@ -136,9 +158,59 @@ form button {
     border: 1px solid #c78c06;
 }
 
+/* Our Team */
+.our-team img {
+    width: 100%;
+}
+
+.john, .bob {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+.our-team h3 {
+    padding: 25px 15px 15px 15px;
+}
+
+.paragraph {
+    padding: 15px 15px 30px 15px;
+}
+
+.subtitle {
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+hr {
+    width: 97%;
+    border: 1px solid #c78c06;
+}
+
 /* Contact Form */
-.contact-form {
+.contact-us form {
     display: inline-block;
+}
+
+label {
+    line-height: 2rem;
+}
+
+#name, #email, #msg {
+    width: 400%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 400%;
+    height: 100px;
+}
+
+.contact-us button {
+    background-color:#222;
+	color:#c78c06;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 /* Hours of Operation */
@@ -155,6 +227,11 @@ th {
 td {
     border: 1px solid black;
     padding: 20px;
+}
+
+/* Location */
+iframe {
+    width: 100%;
 }
 
 /* Footer */
