@@ -48,7 +48,7 @@ nav {
     background-color: #222;
 }
 
-a {
+nav ul li a {
     text-align: center;
     font-size: 1.2rem;
     padding: 20px;
@@ -57,7 +57,7 @@ a {
     color: #c78c06;
  }
 
- a:hover {
+ nav ul li a:hover {
     background-color: #c78c06;
     color: #222;
  }
@@ -87,7 +87,7 @@ form button {
 .welcome-background {
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
-    padding: 50px 0 50px 0;
+    padding: 60px 0 60px 0;
 }
 
 .welcome {
@@ -131,6 +131,19 @@ form button {
     color: white;
     border: 1px solid #c78c06;
 }
+
+/* Footer */
+footer {
+    background-color:#222;
+    color:#c78c06;
+}
+
+footer a:visited {
+    color:#c78c06;
+}
+
+
+
 
 /*  */
 
