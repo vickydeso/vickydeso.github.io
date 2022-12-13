@@ -33,7 +33,7 @@ p {
 }
 
 button {
-    padding: 25px;
+    padding: 20px 30px 20px 30px;
     font-size: 1.5rem;
     border: none;
 }
@@ -50,6 +50,7 @@ nav {
 
 a {
     text-align: center;
+    font-size: 1.2rem;
     padding: 20px;
     display: block;
     text-decoration: none;
@@ -83,12 +84,15 @@ form button {
 }
 
 /* Welcome Section */
-.welcome {
-    background-color: rgba(0, 0, 0, 50%);
+.welcome-background {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding: 50px 0 50px 0;
 }
 
-.banner img {
-    width: 100%;
+.welcome {
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 15px;
 }
 
 .welcome h1 {
