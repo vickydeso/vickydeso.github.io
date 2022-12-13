@@ -8,7 +8,7 @@
     <!-- Google Fonts Stylesheet -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Icons Stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Reset stylesheet -->
@@ -23,11 +23,14 @@
     <header>
         <nav class="wrapper">
             <ul>
-                <li class="nav-item"><a href="#"><img src="images/logo.png" alt="Three Star Media logo">Home</a></li>
-                <li class="nav-item"><a href="#">About Us</a></li>
-                <li class="nav-item"><a href="#">Services</a></li>
-                <li class="nav-item"><a href="#">Team</a></li>
-                <li class="nav-item"><a href="#">Contact</a></li>
+                <div class="hover">
+                    <img src="images/logo.png" alt="Three Star Media logo">
+                    <li><a href="#">Home</a></li>
+                </div>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
             <!-- Search bar with search button -->
             <form>
@@ -49,7 +52,7 @@
     <!-- Main section containing 11 sections, including buttons, a form, map and table -->
     <main>
         <!-- div of wrapper, div for image, div for text -->
-        <div class="wrapper about-us">
+        <div class="wrapper about-us clearfix">
             <img src="images/about-us.jpg" alt="ping pong table">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor atque delectus consectetur, numquam rem
@@ -60,7 +63,7 @@
                 distinctio.</p>
         </div>
         <div class="wrapper our-services">
-            <h2>Our Services</h2>
+            <h2 class="our-services-heading">Our Services</h2>
             <div class="digital">
                 <img src="images/digital.jpg" alt="person using laptop and phone">
                 <h3>Digital Transformation</h3>
@@ -68,7 +71,7 @@
                     ipsa
                     maiores aliquid. Veniam possimus eligendi voluptates tenetur, natus perspiciatis laudantium odit
                     obcaecati eaque ipsa.</p>
-                <button type="button">Digital Plans <i class="fa fa-caret-right"></i></button>
+                <button type="button" class="our-services-button">Digital Plans <i class="fa fa-caret-right"></i></button>
             </div>
             <div class="marketing">
                 <img src="images/marketing.jpg" alt="a laptop displaying graphs">
@@ -121,29 +124,37 @@
         </div>
         <!-- div for heading, images, text -->
         <div class="wrapper our-team">
-            <h2>Our Team</h2>
+            <h2 class="our-team-heading">Our Team</h2>
             <div class="john">
-                <img src="images/john.jpg" alt="portrait photo of John Doe">
-                <h3>John Doe</h3>
-                <p class="subtitle">CEO and Co-owner</p>
-                <hr>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ratione nisi corporis consectetur,
-                    reprehenderit ad deserunt? Eos, voluptate. Dignissimos iste molestiae fugiat eos totam, laudantium
-                    quod voluptate! Quia, vel beatae!</p>
+                <div class="john-img">
+                    <img src="images/john.jpg" alt="portrait photo of John Doe">
+                </div>
+                <div class="john-text">
+                    <h3>John Doe</h3>
+                    <p class="subtitle">CEO and Co-owner</p>
+                    <hr>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ratione nisi corporis consectetur,
+                        reprehenderit ad deserunt? Eos, voluptate. Dignissimos iste molestiae fugiat eos totam, laudantium
+                        quod voluptate! Quia, vel beatae!</p>
+                </div>
             </div>
             <div class="bob">
-                <img src="images/bob.jpg" alt="portrait photo of Bob Rite">
-                <h3>Bob Rite</h3>
-                <p class="subtitle">CFO and Co-owner</p>
-                <hr>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ratione nisi corporis consectetur, reprehenderit ad deserunt? Eos, voluptate. Dignissimos iste molestiae fugiat eos totam, laudantium
-                    quod voluptate! Quia, vel beatae!</p>
+                <div class="bob-img">
+                    <img src="images/bob.jpg" alt="portrait photo of Bob Rite">
+                </div>
+                <div class="bob-text">
+                    <h3>Bob Rite</h3>
+                    <p class="subtitle">CFO and Co-owner</p>
+                    <hr>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ratione nisi corporis consectetur, reprehenderit ad deserunt? Eos, voluptate. Dignissimos iste molestiae fugiat eos totam, laudantium
+                        quod voluptate! Quia, vel beatae!</p>
+                </div>
             </div>
         </div>
         <!-- Contact form with three text boxes and submit button -->
         <div class="wrapper contact-us">
-            <h2>Contact Us</h2>
-            <div>
+            <h2 class="contact-us-heading">Contact Us</h2>
+            <div class="form">
                 <h3>Send us a message</h3>
                 <form action="#" method="get">
                     <div>
